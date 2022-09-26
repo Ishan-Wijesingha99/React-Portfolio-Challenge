@@ -1,4 +1,8 @@
 
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 /* general CSS */
 * {
     box-sizing: border-box;
@@ -16,11 +20,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 10px 20px;
     background-color: #EA4E4E;
     border-bottom: 1px solid black;
     box-shadow: 0 4px 2px -2px black;
     margin-bottom: 50px;
+}
+
+.left-side-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
 }
 
 .header-name:hover {
@@ -41,7 +56,8 @@ body {
 
 .navbar-list-item:hover {
     cursor: pointer;
-    text-decoration: underline 3px;
+    scale: 1.05;
+    transition-duration: 100ms;
 }
 
 /* Footer */
@@ -52,3 +68,54 @@ body {
     border-top: 1px solid black;
     box-shadow: 0px -2px 2px black;
 }
+
+.footer-text {
+    text-align: center;
+}
+
+/* contact section */
+.contact-section {
+    width: 40vw;
+    background-color: #EA4E4E;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+#contact-button, #contact-message, #contact-email, #contact-name {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    background-color: rgb(206, 204, 204);
+}
+
+#contact-message::placeholder, #contact-email::placeholder, #contact-name::placeholder {
+    color: rgb(27, 25, 25);
+}
+
+#contact-button:hover {
+    cursor: pointer;
+    scale: 1.05;
+    transition-duration: 100ms;
+}
+
+
+

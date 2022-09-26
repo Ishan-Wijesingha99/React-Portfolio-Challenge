@@ -1,15 +1,18 @@
 
 import React from "react";
 import { AboutMe } from "./AboutMe"
+import { Contact } from "./Contact";
+import { Portfolio } from "./Portfolio";
 
 
 
-export const MainSection = function() {
-    const [currentSection, setCurrentSection] = React.useState("about me")
+export const MainSection = function(props) {
 
     return (
         <div>
-            {currentSection === "about me" && <AboutMe />}
+            {props.currentSection === "about me" && <AboutMe />}
+            {props.currentSection === "portfolio" && <Portfolio />}
+            {props.currentSection === "contact" && <Contact />}
         </div>
     )
 }

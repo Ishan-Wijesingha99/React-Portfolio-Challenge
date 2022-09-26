@@ -12,8 +12,8 @@ export const App = function() {
 
     return(
         <div>
-            <Header />
-            <MainSection />
+            <Header currentSection={currentSection} setCurrentSection={setCurrentSection}/>
+            <MainSection currentSection={currentSection}/>
             <Footer />
         </div>
     )
