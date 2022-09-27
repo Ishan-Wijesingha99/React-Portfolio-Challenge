@@ -195,6 +195,10 @@ body {
     background-color: #EA4E4E;
     border: 2px solid black;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .demo-code-container {

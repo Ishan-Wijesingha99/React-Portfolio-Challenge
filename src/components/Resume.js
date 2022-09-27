@@ -39,10 +39,8 @@ export const Resume = function() {
                 <div>
                     <h2 className="resume-title">RESUME</h2>
                     <p className="download-resume-text">
-                        You can download my resume <a
-                        href="/RESUME-ISHAN-WIJESINGHA.pdf"
-                        target="_blank"
-                        >here</a>
+                        {/* in order to download a pdf or an image or anything, you need to add the attribute 'download' */}
+                        You can download my resume <a href="/RESUME-ISHAN-WIJESINGHA.pdf" download>here</a>
                     </p>
                     <p className="tech-list-title">Here is a list of the technologies I've worked with</p>
                     
