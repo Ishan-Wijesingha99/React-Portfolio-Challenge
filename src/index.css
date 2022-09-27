@@ -224,3 +224,37 @@ body {
     scale: 1.05;
     transition-duration: 100ms;
 }
+
+/* resume section */
+.resume-section {
+    background-color: #EA4E4E;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.tech-list-item {
+    margin: 15px;
+    margin-left: 18px;
+}
+
+.resume-title {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.download-resume-text {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.tech-list-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
