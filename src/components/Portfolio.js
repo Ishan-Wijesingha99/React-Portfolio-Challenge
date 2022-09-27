@@ -22,32 +22,32 @@ export const Portfolio = function() {
         {
             projectTitle: 'WORK DAY SCHEDULER',
             src: project2,
-            hrefDemo: "https://ishan-wijesingha99.github.io/Random-Password-Generator/",
-            hredCode: "https://github.com/Ishan-Wijesingha99/Random-Password-Generator"
+            hrefDemo: "https://ishan-wijesingha99.github.io/Daily-Hourly-Planner-For-Employees/",
+            hredCode: "https://github.com/Ishan-Wijesingha99/Daily-Hourly-Planner-For-Employees"
         },
         {
             projectTitle: 'WEATHER BASED OFF CITY',
             src: project3,
-            hrefDemo: "https://ishan-wijesingha99.github.io/Random-Password-Generator/",
-            hredCode: "https://github.com/Ishan-Wijesingha99/Random-Password-Generator"
+            hrefDemo: "https://ishan-wijesingha99.github.io/Weather-App-Based-Off-City/",
+            hredCode: "https://github.com/Ishan-Wijesingha99/Weather-App-Based-Off-City"
         },
         {
             projectTitle: 'PIZZA ONLINE SERVICE',
             src: project4,
-            hrefDemo: "https://ishan-wijesingha99.github.io/Random-Password-Generator/",
-            hredCode: "https://github.com/Ishan-Wijesingha99/Random-Password-Generator"
+            hrefDemo: "https://beerandpizza.herokuapp.com/",
+            hredCode: "https://github.com/Ishan-Wijesingha99/Beer-Bar-And-Pizza"
         },
         {
             projectTitle: 'PIG BROWSER GAME',
             src: project5,
-            hrefDemo: "https://ishan-wijesingha99.github.io/Random-Password-Generator/",
-            hredCode: "https://github.com/Ishan-Wijesingha99/Random-Password-Generator"
+            hrefDemo: "https://ishan-wijesingha99.github.io/Pig-Browser-Game/",
+            hredCode: "https://github.com/Ishan-Wijesingha99/Pig-Browser-Game"
         },
         {
             projectTitle: 'JAVASCRIPT QUIZ',
             src: project6,
-            hrefDemo: "https://ishan-wijesingha99.github.io/Random-Password-Generator/",
-            hredCode: "https://github.com/Ishan-Wijesingha99/Random-Password-Generator"
+            hrefDemo: "https://ishan-wijesingha99.github.io/JavaScript-Quiz-App/",
+            hredCode: "https://github.com/Ishan-Wijesingha99/JavaScript-Quiz-App"
         }
     ]
 
@@ -69,6 +69,8 @@ export const Portfolio = function() {
                                     <a
                                     className="project-demo"
                                     href={object.hrefDemo}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     >
                                         DEMO
                                     </a>
