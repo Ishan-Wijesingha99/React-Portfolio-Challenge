@@ -2,7 +2,7 @@
   "homepage": "http://ishan-wijesingha99.github.io/React-Portfolio-Ishan-Wijesingha",
   "name": "solo-project-1",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@hookform/resolvers": "^2.9.8",
     "@testing-library/jest-dom": "^5.16.4",
