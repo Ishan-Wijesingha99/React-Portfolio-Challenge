@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/React-Portfolio-Ishan-Wijesingha/precache-manifest.9ff4c2057c05d379e1fd135f97dcbaa2.js"
+  "/react-portfolio-ishan-wijesingha/precache-manifest.389f5ee3c71d06b3f83384ea3f3585af.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/React-Portfolio-Ishan-Wijesingha/index.html", {
+workbox.routing.registerNavigationRoute("/react-portfolio-ishan-wijesingha/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
