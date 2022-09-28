@@ -1,7 +1,7 @@
 
 import React from "react";
 import { useForm } from 'react-hook-form'
-
+import Swal from 'sweetalert2'
 
 
 
@@ -14,8 +14,8 @@ export const Contact = function() {
         formState: { errors },
     } = useForm()
 
-    const onSubmit = (data) => {
-        console.log(data)
+    const onSubmit = () => {
+        Swal.fire("Form submitted successfully!")        
     }
 
     return (

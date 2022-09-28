@@ -135,6 +135,34 @@ body {
     transition-duration: 100ms;
 }
 
+.form-err-message {
+    color: black;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.swal2-popup {
+    background-color: #EA4E4E;
+    border: 2px solid black;
+}
+
+.swal2-title {
+    color: black;
+}
+
+.swal2-confirm {
+    background-color: rgb(206, 204, 204) !important;
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 5px !important;
+}
+
+.swal2-confirm:hover {
+    scale: 1.05 !important;
+    transition-duration: 100ms !important;
+}
+
 /* about me section */
 .about-me-section {
     width: 80vw;
