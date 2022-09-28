@@ -10,7 +10,6 @@ import { Project } from "./Project";
 
 
 
-
 export const Portfolio = function() {
 
     const projects = [
