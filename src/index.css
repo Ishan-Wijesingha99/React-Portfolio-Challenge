@@ -12,11 +12,11 @@
 }
 
 body {
-    background-color: rgb(206, 204, 204);
+    background-image: linear-gradient(to bottom, rgb(206, 204, 204), rgb(168, 159, 159));
 }
 
 .height-container {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Header and Navigation */
@@ -113,6 +113,11 @@ body {
 .contact-title {
     font-size: 2.4rem;
     font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-text {
+    margin-bottom: 10px;
 }
 
 #contact-button, #contact-message, #contact-email, #contact-name {
@@ -194,11 +199,19 @@ body {
 }
 
 /* portfolio section */
+.portfolio-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .portfolio-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
+    margin-bottom: 80px;
 }
 
 .project {
@@ -234,6 +247,14 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 10px;
+}
+
+.project-code {
+    margin-left: 5px;
+}
+
+.project-demo {
+    margin-right: 5px;
 }
 
 .project-title {
@@ -289,4 +310,52 @@ body {
 .tech-list-title {
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+/* responsive design */
+@media only screen and (max-width: 697px){
+    .about-me-section {
+        flex-direction: column;
+    }
+
+    #about-me-title, #about-me-paragraph {
+        text-align: center;
+    }
+
+    #about-me-paragraph {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-list-item {
+        font-size: 0.8rem;
+    }
+
+    .right-side-nav {
+        margin-top: 10px;
+    }
+
+    .contact-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .portfolio-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-title {
+        font-size: 1rem;
+    }
 }

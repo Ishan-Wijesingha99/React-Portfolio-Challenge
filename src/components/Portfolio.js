@@ -53,6 +53,8 @@ export const Portfolio = function() {
 
     return (
         <div className="height-container">
+            <h2 className="portfolio-title">PORTFOLIO</h2>
+
             <div className="portfolio-section">
 
                 {

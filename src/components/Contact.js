@@ -23,7 +23,7 @@ export const Contact = function() {
             <div className="contact-section">
                 <div className="contact-section-text">
                     <p className="contact-title">CONTACT</p>
-                    <p>Submit the form below to get in touch with me</p>
+                    <p className="contact-text">Submit the form below to get in touch with me</p>
                 </div>
 
                 <form
