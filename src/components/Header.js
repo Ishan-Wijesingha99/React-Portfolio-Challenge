@@ -4,9 +4,10 @@ import { Navigation } from "./Navigation";
 
 
 
-// header component
+// Header component
 export const Header = function(props) {
 
+    // this function will change the currentSection state variable to 'about me', which will change the displayed section to the 'About Me' section
     const changeSection = function() {
         props.setCurrentSection('about me')
     }
@@ -22,6 +23,7 @@ export const Header = function(props) {
                 </h1>
             </div>
             
+            {/* passing currentSection and currentSection setter method down as props into Navigation component */}
             <Navigation currentSection={props.currentSection} setCurrentSection={props.setCurrentSection}/>
         </nav>
     )

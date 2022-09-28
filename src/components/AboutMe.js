@@ -4,6 +4,7 @@ import heroImage from '../assets/profile-pic.jpg'
 
 
 
+// AboutMe component
 export const AboutMe = function() {
     return (
         <div className="height-container">

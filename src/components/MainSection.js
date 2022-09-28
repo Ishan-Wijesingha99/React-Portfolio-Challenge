@@ -7,6 +7,7 @@ import { Resume } from "./Resume";
 
 
 
+// MainSection component, this is where the section will be rendered to the user depending on what the currentSection state variable is
 export const MainSection = function(props) {
 
     return (

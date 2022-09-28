@@ -4,7 +4,8 @@ import {FaGithub, FaLinkedin, } from 'react-icons/fa'
 import {BsStackOverflow} from 'react-icons/bs'
 
 
-// Footer
+
+// Footer component
 export const Footer = function() {
     return (
         <div className="footer">

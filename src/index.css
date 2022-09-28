@@ -1,7 +1,5 @@
-
 /* import google font */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
 
 /* general CSS */
 * {
@@ -19,7 +17,7 @@ body {
     min-height: 100vh;
 }
 
-/* Header and Navigation */
+/* header and navigation */
 .navbar {
     display: flex;
     align-items: center;
@@ -64,7 +62,7 @@ body {
     transition-duration: 100ms;
 }
 
-/* Footer */
+/* footer */
 .footer {
     margin-top: 50px;
     padding: 20px 20px;

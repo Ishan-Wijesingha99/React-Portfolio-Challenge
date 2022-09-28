@@ -10,8 +10,11 @@ import { Project } from "./Project";
 
 
 
+// Portfolio component
 export const Portfolio = function() {
 
+    // create an array of project objects, with each object having information about a specific project
+    // loop and map over this projects array in the JSX to create 6 different Project components
     const projects = [
         {
             projectTitle: 'PASSWORD GENERATOR',
@@ -57,6 +60,7 @@ export const Portfolio = function() {
 
             <div className="portfolio-section">
 
+                {/* map over the projects array and for each element, create a Project component and pass in information from that element as props into the Project component */}
                 {
                     projects.map(object => {
                         return (

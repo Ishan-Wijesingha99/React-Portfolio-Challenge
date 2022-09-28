@@ -3,6 +3,7 @@ import React from "react";
 
 
 
+// Project component
 export const Project = function(props) {
     return (
         <div className="project-container">

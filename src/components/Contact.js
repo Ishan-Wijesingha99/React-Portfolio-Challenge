@@ -5,8 +5,10 @@ import Swal from 'sweetalert2'
 
 
 
+// Contact component
 export const Contact = function() {
 
+    // using react-hook-form
     const {
         register,
         handleSubmit,
@@ -14,6 +16,7 @@ export const Contact = function() {
         formState: { errors },
     } = useForm()
 
+    // this function is executed when the form is submitted
     const onSubmit = () => {
         Swal.fire("Form submitted successfully!")        
     }
@@ -35,10 +38,12 @@ export const Contact = function() {
                     name="name"
                     placeholder="Enter your name"
                     id="contact-name"
+                    // setting up this input as required using react-hook-form
                     {...register("firstName", {
                         required: true
                     })}
                     />
+                    {/* if errors.firstName is true, display the error message */}
                     {errors.firstName && (
                     <p className="form-err-message">
                         Field is required
@@ -49,11 +54,13 @@ export const Contact = function() {
                     name="email"
                     placeholder="Enter your email"
                     id="contact-email"
+                    // setting up this input as required and needing to be an email using react-hook-form
                     {...register("email", {
                         required: true,
                         pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
                     })}
                     />
+                    {/* if errors.email is true, display the error message */}
                     {errors.email && (
                     <p className="form-err-message">
                         Must be valid email address
@@ -64,11 +71,13 @@ export const Contact = function() {
                     rows="10"
                     placeholder="Enter your message"
                     id="contact-message"
+                    // setting up this input as required using react-hook-form
                     {...register("message", {
                         required: true
                     })}
                     >
                     </textarea>
+                    {/* if errors.message is true, display the error message */}
                     {errors.message && (
                     <p className="form-err-message">
                         Field is required
