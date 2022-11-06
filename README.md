@@ -1,4 +1,4 @@
-# React Portfolio Page
+# React Portfolio Challenge
 
 ## Description
 This application is a single page portfolio for potential employers to gauge React skills as well as get access to personal projects and relevant information about me. 
@@ -25,7 +25,7 @@ In the 'Resume' section, there is a link that will allow the user to download my
 ![Screenshot-5](./src/assets/screenshot-5.png)
 
 ## Link to Deployed application
-https://ishan-wijesingha99.github.io/React-Portfolio-Ishan-Wijesingha/
+https://ishan-wijesingha99.github.io/React-Portfolio-Challenge/
 
 ## Minor Problem with the Assessment Criteria
 On the 'Contact' page, I was unable to get the form input error messages to appear when the user clicks off the inputs. I was able to get the error messages to appear once the user attempted to submit the form, and also the error messages would automatically leave once the input values were set right. The same general function was achieved but not exactly as specified in the assessment criteria.
