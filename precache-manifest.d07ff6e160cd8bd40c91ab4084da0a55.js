@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "0a9cbb75afc8020ae1cd",
-    "url": "/React-Portfolio-Ishan-Wijesingha/static/css/main.24c3bcfc.chunk.css"
+    "revision": "784d5ec6ef09d13f05ea",
+    "url": "/React-Portfolio-Ishan-Wijesingha/static/css/main.9d975ffb.chunk.css"
   },
   {
-    "revision": "0a9cbb75afc8020ae1cd",
-    "url": "/React-Portfolio-Ishan-Wijesingha/static/js/main.0a9cbb75.chunk.js"
+    "revision": "784d5ec6ef09d13f05ea",
+    "url": "/React-Portfolio-Ishan-Wijesingha/static/js/main.784d5ec6.chunk.js"
   },
   {
-    "revision": "02fe93441f27f888dc28",
-    "url": "/React-Portfolio-Ishan-Wijesingha/static/js/1.02fe9344.chunk.js"
+    "revision": "64980b7204d6b730e8b6",
+    "url": "/React-Portfolio-Ishan-Wijesingha/static/js/1.64980b72.chunk.js"
   },
   {
     "revision": "4dc5d42eeeed357d4f44",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/React-Portfolio-Ishan-Wijesingha/static/media/project6.cfbc729f.png"
   },
   {
-    "revision": "2ab2816cf995f92b567032112f04fa95",
+    "revision": "1878563704a3857e713f05dd7f82ca7d",
     "url": "/React-Portfolio-Ishan-Wijesingha/index.html"
   }
 ];

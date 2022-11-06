@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/React-Portfolio-Ishan-Wijesingha/precache-manifest.53b80937427300ba0c3d7e3670622de4.js"
+  "/React-Portfolio-Ishan-Wijesingha/precache-manifest.d07ff6e160cd8bd40c91ab4084da0a55.js"
 );
 
 workbox.clientsClaim();
